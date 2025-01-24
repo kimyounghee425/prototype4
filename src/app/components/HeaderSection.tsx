@@ -68,7 +68,7 @@ export function HeaderSection() {
             // mb="8px"
           >
             {/* 모바일 화면 */}
-            <Text display={["block", "block", "none"]}>
+            <Text display={["block", "none", "none"]}>
               축의금부터 축하 메시지까지,
               <br />
               결혼의 모든 순간을
@@ -76,7 +76,7 @@ export function HeaderSection() {
             </Text>
 
             {/* 데스크탑 화면 */}
-            <Text display={["none", "none", "block"]}>
+            <Text display={["none", "block", "block"]}>
               축의금부터 축하 메시지까지,
               <br />
               결혼의 모든 순간을 한 손에 담는 스마트 청첩장!
@@ -91,7 +91,7 @@ export function HeaderSection() {
             color="#656565"
           >
             {/* 모바일 화면 */}
-            <Text display={["block", "block", "none"]}>
+            <Text display={["block", "none", "none"]}>
               물론, 축의금액은 신랑, 신부만 확인 가능합니다!
             </Text>
             {/* 데스크탑 화면 */}
