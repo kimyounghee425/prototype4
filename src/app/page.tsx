@@ -11,9 +11,9 @@ const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 export default function Home() {
   useEffect(() => {
     const userVisited = "visited";
-
     const countVisited = async () => {
-      if (!localStorage.getItem(userVisited)) {
+      if (true) {
+        console.log("post 메서드 동작")
         try {
           // 이음 = 4번
           const response = await fetch(`${BASE_URL}/api/log-visit/`, {
